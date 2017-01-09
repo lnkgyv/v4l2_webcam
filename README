@@ -1,0 +1,7 @@
+Some utilities for work with WEB-Cam (Lenovo Z570).
+main.c - example programm with some little changes to capture RAW(YUY2) image from
+         laptop WEB-Cam using V4l2 Linux subsystem.
+yuy2jpeg.c - convert RAW image to jpeg using jpeglib.
+yuy2rgb.c - convert RAW image to RBG.
+draw_image.c - draw RGB image using Xlib in screen.
+fbdraw.c - draw RGB image in FrameBuffer. 
